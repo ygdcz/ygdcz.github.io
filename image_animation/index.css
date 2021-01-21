@@ -70,6 +70,6 @@ section h2 {
     transform: scale(1) translateY(0);
     background: url(https://ss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/810a19d8bc3eb13518ef02ffa51ea8d3fd1f444d.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; 
   }
 }
