@@ -37,20 +37,19 @@ section h2 {
   display: block;
   width: 5vw;
   height: 5vw;
-  background: #fff;
-  animation: animate 0.75s ease-in-out forwards;
+  animation: animate 0.75s cubic-bezier(0.51,-0.26, 0.58, 1) forwards;
 }
 
 .banner .blocks:nth-child(even) {
-  animation: animate 1s ease-in-out forwards;
+  animation: animate 1s cubic-bezier(0.51,-0.26, 0.58, 1) forwards;
 }
 
 .banner .blocks:nth-child(7n+3) {
-  animation: animate 2.5s ease-in-out forwards;
+  animation: animate 1.2s cubic-bezier(0.51,-0.26, 0.58, 1) forwards;
 }
 
 .banner .blocks:nth-child(7n+7) {
-  animation: animate 1.5s ease-in-out forwards;
+  animation: animate 1.5s cubic-bezier(0.51,-0.26, 0.58, 1) forwards;
 }
 
 @keyframes animate {
@@ -62,7 +61,6 @@ section h2 {
   50% {
     opacity: 1;
     background: url(https://ss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/810a19d8bc3eb13518ef02ffa51ea8d3fd1f444d.jpg);
-    background-position: center;
     background-size: cover;
     background-attachment: fixed;
   }
@@ -71,7 +69,6 @@ section h2 {
     opacity: 1;
     transform: scale(1) translateY(0);
     background: url(https://ss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/810a19d8bc3eb13518ef02ffa51ea8d3fd1f444d.jpg);
-    background-position: center;
     background-size: cover;
     background-attachment: fixed;
   }
